@@ -1,0 +1,14 @@
+query "button marked: 'Have an account?'"
+query "button"
+query "button marked:'HaveAccount'"
+query "label"
+query("label marked:'Have an Account?'")
+query("label titled:'Have an Account?'")
+query("label title:'Have an Account?'")
+query("label text:'Have an Account?'")
+query("label value:'Have an Account?'")
+query "button marked:'HaveAccount'"
+query "button marked:'ForgotPassword'"
+query "button"
+query "button marked:'Forgot Password?'"
+exit
