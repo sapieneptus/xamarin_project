@@ -1,5 +1,9 @@
 Given /^I am on the Registration Screen$/ do
-  element_exists("button marked:'Sign Up'")
+  check_element_exists("button marked:'Sign Up'")
+
+  #On the reg screen, the user may be alerted with system alerts
+  #about Notifications and Location Monitoring. We should
+  #accept these by default
 
   while uia_query(:alert).count > 0
     # dismiss system dialogue for notifications/location
@@ -13,7 +17,7 @@ Given /^I am on the Registration Screen$/ do
 end
 
 And(/^I enter "(.*?)" as my (.*?)$/) do |val, key|
-  case val
+  case key
     when 'username'
       touch(query("textField")[0])
     when 'email'
