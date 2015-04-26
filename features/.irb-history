@@ -1,0 +1,42 @@
+query "*"
+query "button"
+query "button labeled:'HaveAccount'"
+query "button named:'HaveAccount'"
+query "button "
+query "button labeled:HaveAccount"
+query "button 'labeled:HaveAccount'"
+query button "labeled:HaveAccount"
+query 'button "labeled:HaveAccount"'
+query 'button marked:"HaveAccount"'
+query "button marked:'HaveAccount'"
+query "button withId:0"
+query "button id:0"
+query "button id=0"
+query "button 0"
+query "button[0]"
+query "button"[0]
+query "button" 0
+query "view"
+query "label"
+query "label labeled:'CrowdComfort'"
+query "label marked:'CrowdComfort'"
+query "textfield"
+query "*"
+query "textField"
+query "textField marked:'Username'"
+query "textField marked:'username'"
+query "textField marked:'Username'"
+query "textField"
+query "textField 0"
+query "textField[0]"
+query "textField at:0"
+query "textField id:0"
+query "textField "
+query ("textField ")[0]
+query("textField")[0]
+query("textField markedAs:TooShort")
+query("textField")
+query("label marked:'TooShort'")
+query("label marked:'*")
+query("label marked:'too short")
+exit
