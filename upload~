@@ -1,0 +1,1 @@
+test-cloud submit ~/crowd_comfort_iOS/ipa/Crowd\ Comfort-cal.ipa 4f49aa6a774defbea01abe6d88cb298d --devices 81c9d6d1 --series "master" --locale "en_US" --app-name "CrowdComfort" --user cfuentes@g.harvard.edu

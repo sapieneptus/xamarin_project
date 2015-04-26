@@ -1,5 +1,14 @@
 Given /^I am on the Registration Screen$/ do
   element_exists("button marked:'Sign Up'")
+
+  while uia_query(:alert).count > 0
+    # dismiss system dialogue for notifications/location
+    if uia_query("button marked:'Allow'").count > 0
+      uia_tap_mark 'Allow'
+    elsif uia_query("button marked:'OK'").count > 0
+      uia_tap_mark 'OK'
+    end
+  end
   sleep(STEP_PAUSE)
 end
 
