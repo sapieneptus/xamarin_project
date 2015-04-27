@@ -2,7 +2,7 @@
 Xamarin Project
 
 ## Notes
-I have not refactored to use Screen objects yet. Time-permitting, I'll complete this refactor by Wednesday.
+I have not refactored to use Screen objects yet. Time permitting, I'll try to complete this refactor by Wednesday.
 
 So far, my tests have not caused any app crashes. Time permitting, I'd like to try to explore that more. 
 
